@@ -1,0 +1,9 @@
+hosts:
+  - name: example
+    url: 'https://example.org/'
+    text_match: 'Example Domain'
+    timeout: 10
+    proxyserver: 1
+    proxyaddress: 'https://myproxy.local:3128'
+    proxyusername: ''
+    proxypassword: ''
